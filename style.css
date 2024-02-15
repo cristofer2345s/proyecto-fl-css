@@ -1,0 +1,75 @@
+.new{
+    background-color: coral;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: flex;
+   justify-content: center;
+}
+
+/* select option{
+    background-color: rgb(60, 94, 123);
+    box-shadow: inset;
+    display: flex;
+} */
+h3 {
+    padding: 0;
+    margin: 0;
+}
+.first{
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.561) ;
+    font-size: 50PX;
+    margin: 10px;
+    top: 400px;
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    text-align: center;
+    border: 1px solid brown ;
+}
+
+.padremenu{
+    position: relative;
+    background-color: blueviolet;
+    color: white;
+    margin: 0;
+    padding: 10;
+    width: 80px;
+    border-radius: 7px;
+}
+
+.hijomenu{
+    position: absolute;
+    width: 100px;
+    padding: 10px;
+    background-color: blueviolet;
+    display: none;
+    gap: 5px;
+    flex-direction: column;
+    border-radius: 7px;
+    border-top-left-radius: 0px;
+    top: 38px;
+
+}
+
+.hijomenu a{
+    border-radius: 7px;
+    border: 1px rgb(255, 255, 255) solid;
+    background-color: blueviolet;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+.hijomenu a:hover{
+    background-color: rgb(71, 19, 120);
+}
+.padremenu:hover .hijomenu{
+    display: flex;
+}
+.padremenu:hover{
+    background-color: rgb(71, 19, 120);
+}
+

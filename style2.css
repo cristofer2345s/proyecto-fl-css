@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 50px;
+
+   
+}
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: bisque;
+    display: flex;
+    position: relative;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.control{
+   
+    text-align: center;
+    background-color: orange ;
+    color: white;
+    width: 500px;
+    height: 65px;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+ 
+}
+p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+.feedback{
+    margin-top: 40px;
+    height: 40px;
+    width: 225px;
+}
